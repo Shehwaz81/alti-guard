@@ -9,9 +9,11 @@ headers = {
 }
 
 # The "Package" (Body)
+good = 'hello, my name is shehwaz, haahhahahahah'
+bad = 'cannot cant could not do so for that is the one I cannot do undergo so therefore I will be the one to do the amazing thing I will not'
 payload = {
-    "input": "This is a manual test from Python",
-    "output": "If you see this in Supabase, IT WORKS!"
+    "input": "yellow by double bellow",
+    "output": good
 }
 
 try:

@@ -39,7 +39,7 @@ def log_data(
         "input": payload.input,
         "output": payload.output
     }
-    response = supabase.table("AltiLogger").insert(sql_data).execute()
+    response = supabase.table("logs").insert(sql_data).execute()
     
     if response.data:
         return {

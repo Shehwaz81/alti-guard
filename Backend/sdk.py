@@ -24,6 +24,7 @@ class AltiLogger:
             print(f"Alti Gaurd Error: Failed to send log. Reason: {e}")
         pass
 
+    # we will add a PII redactor later on as well
     def log(self, input_text, output_text):
         data = {
             'input': input_text,
